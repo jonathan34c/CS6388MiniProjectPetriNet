@@ -1,0 +1,33 @@
+{
+  "components": {
+    "visualizers": {
+      "SimSM": {
+        "src": "panels/SimSM/SimSMPanel",
+        "title": "SimSM",
+        "panel": "src/visualizers/panels/SimSM",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/SimSM"
+      }
+    },
+    "plugins": {
+      "ReachCheck": {
+        "src": "src/plugins/ReachCheck",
+        "test": "test/plugins/ReachCheck"
+      },
+      "PetriPlugin": {
+        "src": "src/plugins/PetriPlugin",
+        "test": "test/plugins/PetriPlugin"
+      }
+    },
+    "seeds": {
+      "StateMachine": {
+        "src": "src/seeds/StateMachine"
+      }
+    }
+  },
+  "dependencies": {
+    "visualizers": {},
+    "plugins": {},
+    "seeds": {}
+  }
+}
