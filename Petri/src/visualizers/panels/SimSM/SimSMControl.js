@@ -1,3 +1,4 @@
+// Code reference https://github.com/austinjhunt/petrinet-webgme-designstudio/blob/main/petri-net/src/visualizers/panels/SimViz/SimVizControl.js
 define([
   "js/Constants",
   "js/Utils/GMEConcepts",
@@ -243,7 +244,6 @@ define([
     });
   };
 
-  // Code reference https://github.com/austinjhunt/petrinet-webgme-designstudio/blob/main/petri-net/src/visualizers/panels/SimViz/SimVizControl.js
   let _petriNetInDeadlock = (petriNet) => {
     return Object.keys(petriNet.transitions).every((transId) => {
       let placetotrans = Object.keys(petriNet.outMatrix).filter(
