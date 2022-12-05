@@ -74,7 +74,7 @@ https://user-images.githubusercontent.com/8307131/205669457-1f448078-0b69-4515-9
 
 # 📌 Note
 * This project is base on the StateMachine [example project](https://github.com/kecso/StateMachineJoint)
-* Since I am new to Javascript development, many of the UI components are reference from other Sample projects. I have added some comment in the codes for reference. 
+* Since I am new to Javascript development, many of the components are reference from other Sample projects. I have added some comment in the codes for reference. 
 * The project has build on the `webgme-cli` tool instead of Docker.
 
 # 📋 Reference 
